@@ -17,9 +17,11 @@ A serverless adaptation of the [Glance](https://github.com/glanceapp/glance) das
 
 ## 📖 Documentation
 
-- **[Deployment Guide](VERCEL_DEPLOYMENT.md)** - Complete setup instructions
-- **[Configuration Examples](CONFIG_EXAMPLES.md)** - Sample configurations
-- **[Original Glance Docs](https://github.com/glanceapp/glance/tree/main/docs)** - Widget and feature documentation
+- **[🎯 GUI Setup Guide](VERCEL_GUI_SETUP.md)** - Step-by-step Vercel interface instructions
+- **[🤖 Automated Deployment](AUTOMATED_DEPLOYMENT.md)** - GitHub Actions workflow setup
+- **[📚 Technical Guide](VERCEL_DEPLOYMENT.md)** - Complete deployment reference
+- **[⚙️ Configuration Examples](CONFIG_EXAMPLES.md)** - Sample configurations
+- **[📖 Original Glance Docs](https://github.com/glanceapp/glance/tree/main/docs)** - Widget and feature documentation
 
 ## 🎯 Quick Start
 
