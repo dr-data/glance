@@ -1,0 +1,30 @@
+{
+  "name": "glance-serverless",
+  "version": "1.0.0",
+  "description": "Glance Dashboard - Serverless deployment on Vercel",
+  "private": true,
+  "scripts": {
+    "deploy": "vercel --prod",
+    "deploy:preview": "vercel",
+    "dev": "vercel dev",
+    "build": "go build ./api/...",
+    "test": "go test ./..."
+  },
+  "keywords": [
+    "dashboard",
+    "glance",
+    "serverless",
+    "vercel",
+    "go"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dr-data/glance.git"
+  },
+  "devDependencies": {
+    "vercel": "latest"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
