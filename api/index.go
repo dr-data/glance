@@ -1,4 +1,4 @@
-package handler
+package main
 
 import (
 	"encoding/json"
@@ -107,4 +107,8 @@ func getEnvIntWithDefault(key string, defaultValue int) int {
 		}
 	}
 	return defaultValue
+}
+
+func main() {
+	// This main function is required for Vercel Go runtime
 }

@@ -1,3 +1,3 @@
-module github.com/glanceapp/glance/api
+module api
 
-go 1.24.6
+go 1.21
