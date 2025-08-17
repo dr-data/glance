@@ -1,0 +1,50 @@
+{
+  "version": 2,
+  "functions": {
+    "api/index.go": {
+      "runtime": "go1.x"
+    }
+  },
+  "routes": [
+    {
+      "src": "/favicon.(ico|png|svg)",
+      "dest": "/public/favicon.$1"
+    },
+    {
+      "src": "/css/(.*)",
+      "dest": "/public/css/$1"
+    },
+    {
+      "src": "/js/(.*)",
+      "dest": "/public/js/$1"
+    },
+    {
+      "src": "/fonts/(.*)",
+      "dest": "/public/fonts/$1"
+    },
+    {
+      "src": "/icons/(.*)",
+      "dest": "/public/icons/$1"
+    },
+    {
+      "src": "/static/(.*)",
+      "dest": "/public/$1"
+    },
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/index.go"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/api/index.go"
+    }
+  ],
+  "env": {
+    "GLANCE_PAGES": "[{\"name\":\"Dashboard\",\"slug\":\"\",\"columns\":[]}]",
+    "GLANCE_HOST": "",
+    "GLANCE_PORT": "8080",
+    "GLANCE_PROXIED": "true",
+    "GLANCE_BASE_URL": "",
+    "GLANCE_DISABLE_THEME_PICKER": "false"
+  }
+}

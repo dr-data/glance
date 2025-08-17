@@ -2,4 +2,7 @@
 /build
 /playground
 /.idea
-/glance*.yml
+/glance
+/dist/
+/node_modules/
+.vercel*.yml
