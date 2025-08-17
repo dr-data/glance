@@ -1,6 +1,0 @@
-pages:
-  - name: Test Page
-    columns:
-      - size: full
-        widgets:
-          - type: calendar
